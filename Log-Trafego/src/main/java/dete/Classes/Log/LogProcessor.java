@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class LogProcessor {
-    private static final List<LogEntry> logEntries = new ArrayList<>();
+    private final List<LogEntry> logEntries = new ArrayList<>();
     private static LogProcessor instance;
 
     private LogProcessor(){}
