@@ -21,9 +21,6 @@ public class LogProcessor {
         logEntries.add(logEntry);
     }
 
-    public void deleteLog(LogEntry log){
-        logEntries.removeIf(l -> l.equals(log));
-    }
 
     public void filterByID(){
         Collections.sort(logEntries);
